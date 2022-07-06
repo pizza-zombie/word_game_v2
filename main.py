@@ -2,7 +2,7 @@ git ‐‐versionimport utils
 from classes import Player
 
 def main():
-    #Приветствие
+    #Приветствие игрока
     player = Player(input("Введите имя игрока: "))
     print(f"Привет, {player.name}!")
 
